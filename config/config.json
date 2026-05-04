@@ -1,0 +1,16 @@
+{
+  "workflow": [
+    "load",
+    "process",
+    "save"
+  ],
+  "files": {
+    "input": "temp_input.txt",
+    "output": "temp_output.txt"
+  },
+  "process": {
+    "uppercase": true,
+    "reverse": false,
+    "remove_empty": true
+  }
+}
